@@ -47,3 +47,13 @@ cp .env.example .env
 ```
 Open the .env file and update the following environment variables:
 
+- **APP_NAME**: The name of your application.
+- **APP_URL**: The URL of your application (e.g., `http://localhost`).
+- **DB_CONNECTION**: The database connection type (e.g., `mysql`, `pgsql`).
+- **DB_HOST**: The hostname of your database server.
+- **DB_PORT**: The port of your database server.
+- **DB_DATABASE**: The name of your database.
+- **DB_USERNAME**: The username to access your database.
+- **DB_PASSWORD**: The password to access your database.
+
+
