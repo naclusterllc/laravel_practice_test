@@ -6,12 +6,12 @@ This guide provides step-by-step instructions to set up and run your Laravel + R
 
 Ensure the following software is installed:
 
-- **PHP >= 8.0**
+- **PHP >= 8.1**
 - **Composer**
-- **Node.js >= 16.x**
+- **Node.js >= 18.x**
 - **NPM or Yarn**
 - **Git**
-- **A Database** (e.g., MySQL, PostgreSQL)
+- **A Database** (e.g., MySQL,Mariadb)
 
 ## 1. Clone the Repository
 
@@ -49,7 +49,7 @@ Open the .env file and update the following environment variables:
 
 - **APP_NAME**: The name of your application.
 - **APP_URL**: The URL of your application (e.g., `http://localhost`).
-- **DB_CONNECTION**: The database connection type (e.g., `mysql`, `pgsql`).
+- **DB_CONNECTION**: The database connection type (e.g., `mysql`, `mariadb`).
 - **DB_HOST**: The hostname of your database server.
 - **DB_PORT**: The port of your database server.
 - **DB_DATABASE**: The name of your database.
