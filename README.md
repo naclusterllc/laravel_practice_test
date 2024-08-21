@@ -56,4 +56,53 @@ Open the .env file and update the following environment variables:
 - **DB_USERNAME**: The username to access your database.
 - **DB_PASSWORD**: The password to access your database.
 
+## 5. Generate Application Key
+
+```bash
+php artisan key:generate
+```
+
+## 6. Run Database Migrations and Seeders
+
+Run the database migrations and seeders to set up the initial database structure and data:
+
+```bash
+php artisan migrate --seed
+```
+
+## 7. Create Storage Link
+
+Create a symbolic link from public/storage to storage/app/public to make files accessible:
+
+```bash
+php artisan storage:link
+```
+
+## 8. Build Frontend Assets
+
+Build the frontend assets using Vite:
+
+```bash
+npm run build
+```
+
+For development mode, you can use:
+
+```bash
+npm run dev
+```
+
+This command starts the Vite development server and watches for changes.
+
+## 9. Start the Development Server
+
+Start the Laravel development server:
+
+```bash
+php artisan serve
+```
+
+You can now access your application in the browser at http://localhost:8000.
+
+
 
