@@ -38,3 +38,12 @@ Install the required Node.js packages:
 npm install
 ```
 
+## 4. Configure Environment Variables
+
+Copy the .env.example file to create your .env configuration file:
+
+```bash
+cp .env.example .env
+```
+Open the .env file and update the following environment variables:
+
