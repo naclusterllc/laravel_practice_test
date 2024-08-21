@@ -18,8 +18,8 @@ Ensure the following software is installed:
 Start by cloning the project repository from GitHub:
 
 ```bash
-git clone https://github.com/your-username/your-repo-name.git
-cd your-repo-name
+git clone https://github.com/AclusterllcSoftware/lax
+cd lax
 ```
 Replace your-username and your-repo-name with your GitHub username and repository name.
 
