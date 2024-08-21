@@ -21,7 +21,7 @@ Start by cloning the project repository from GitHub:
 git clone https://github.com/your-username/your-repo-name.git
 cd your-repo-name
 ```
-# Replace your-username and your-repo-name with your GitHub username and repository name.
+Replace your-username and your-repo-name with your GitHub username and repository name.
 
 ## 2. Install PHP Dependencies
 
@@ -29,3 +29,12 @@ Use Composer to install the PHP dependencies:
 
 ```bash
 composer install
+```
+## 3. Install Node.js Dependencies
+
+Install the required Node.js packages:
+
+```bash
+npm install
+```
+
